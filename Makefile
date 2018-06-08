@@ -5,7 +5,7 @@ all:	src
 src:	font2openvg
 
 build-dir:
-	mkdir "./build/"
+	mkdir -p "./build/"
 
-font2openvg:	build-dir	./lib/font2openvg.cpp
+font2openvg:	build-dir	./src/font2openvg.cpp
 	g++ $(GCC_INCLUDEFLAGS) src/font2openvg.cpp -o build/font2openvg $(GCC_LIBFLAGS)
