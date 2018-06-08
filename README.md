@@ -1,8 +1,5 @@
 # font2openvg
 
-A hosting of the font2openvg library developed by the dissolved Hybrid Graphics,
-Ltd.
-
 Alongside other large firms such as Sun Microsystems and Nokia, Hybrid Graphics,
 Ltd. was one of the initial OpenVG group members, when the OpenVG group was
 formed in 2004.
@@ -11,9 +8,14 @@ formed in 2004.
 files into OpenVG API instruction procedures, so that fonts can be embedded into
 OpenVG applications.
 
-Hybrid was acquired by NVIDIA Corporation in 2006. This repository is a
-re-upload of their `font2openvg` library, as it can currently only be found as
-code embedded in larger applications.
+Hybrid was acquired by NVIDIA Corporation in 2006. The library is useful for
+embedding fonts into OpenVG applications, but searching online for the original
+code reveals that it can only be found as a dependency embedded within larger
+applications.
+
+This repository is a re-upload of the original `font2openvg` library. The rights
+to ownership still belong to the original authors, as stated in the license
+information.
 
 ## Build & Run
 
@@ -31,6 +33,6 @@ The application can be run from the command line using the following syntax:
 ./build/font2openvg ["input-path"] ["output-path"] ["font-name"]
 ```
 
-## LICENSE
+## License
 
 See the `LICENSE` file for license information.
