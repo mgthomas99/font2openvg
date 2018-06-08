@@ -1,7 +1,7 @@
 GCC_INCLUDEFLAGS=-I/usr/include/freetype2
 GCC_LIBFLAGS=-L/opt/vc/lib -lfreetype
 
-all:	lib	src
+all:	src
 src:	font2openvg
 
 build-dir:
