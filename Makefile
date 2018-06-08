@@ -8,4 +8,4 @@ build-dir:
 	mkdir -p "./build/"
 
 font2openvg:	build-dir	./src/font2openvg.cpp
-	g++ $(GCC_INCLUDEFLAGS) src/font2openvg.cpp -o build/font2openvg $(GCC_LIBFLAGS)
+	g++ $(GCC_INCLUDEFLAGS) ./src/font2openvg.cpp -o ./build/font2openvg $(GCC_LIBFLAGS)
