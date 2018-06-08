@@ -1,4 +1,4 @@
-# font2openvg-legacy
+# font2openvg
 
 A hosting of the font2openvg library developed by the dissolved Hybrid Graphics,
 Ltd.
